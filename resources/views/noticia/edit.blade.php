@@ -43,7 +43,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Texto:</strong>
-                    <input type="text" name="texto" value="{{ $noticia->texto }}" class="form-control is-valid" placeholder="Insira o novo texto" required>
+                    <textarea type="text" name="texto" class="form-control is-valid" placeholder="Insira o novo texto" rows="7" required>{{ $noticia->texto }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">

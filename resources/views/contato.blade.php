@@ -373,6 +373,27 @@
                     </div>
                 </div>
 
+                <div class="row">
+
+                    <div class="col-lg-2">
+                        <div class="col-lg-12 col-md-6 col-sm-6">
+                            <div class="trending-top mb-30" style="padding-top: 10px">
+                                <img src="{{ asset('alunos/kamilly.png') }}" width="180">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="trend-top-cap">
+                            <h1><a href="#" data-animation="fadeInUp" data-delay=".4s" data-duration="1000ms">Kamilly Oliveira</a></h1>
+                            <p data-animation="fadeInUp" data-delay=".6s" data-duration="1000ms">Pesquisa e Publicidade</p>
+                        </div>
+                        <ul class="header-social">
+                            <h4><li><a href="https://www.instagram.com/mila.oliveiraa/" style="color: black;"><i class="fab fa-instagram"></i> @mila.oliveiraa</a></li></h4>
+                            <h4><li><a href="#" style="color: black;"><img src="{{ asset('tema_pub/assets/img/icon/email.png') }}" width="25"> kamillysinerina@gmail.com</a></li></h4>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
